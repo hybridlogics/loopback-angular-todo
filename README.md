@@ -40,9 +40,9 @@ server-side.
 - Directory to contain the project: `loopback-angular-todo`
 
 ```
-$ slc loopback loopback-angular-todo
+slc loopback loopback-angular-todo
 ... # follow the prompts
-$ cd loopback-angular-todo
+cd loopback-angular-todo
 ```
 
 ### Create the `Todo` model
@@ -63,7 +63,7 @@ $ cd loopback-angular-todo
       - Required
 
 ```
-$ slc loopback:model Todo
+slc loopback:model Todo
 ... # follow the prompts
 ```
 
@@ -77,7 +77,7 @@ $ slc loopback:model Todo
 From the project root, run:
 
 ```
-$ bower install angular angular-resource angular-ui-router bootstrap
+bower install angular angular-resource angular-ui-router bootstrap
 ```
 
 ### Create the home page
@@ -89,7 +89,7 @@ Create [`index.html`]in the client directory.
 Create a css directory to store stylesheets.
 
 ```
-$ mkdir client/css
+mkdir client/css
 ```
 
 In this directory, create [`styles.css`]
@@ -106,7 +106,7 @@ Add static middleware to the [`files` section in `middleware.json`]
 Create a [`js` directory](https://github.com/strongloop/loopback-example-angular/blob/master/client/js) to hold scripts files.
 
 ```
-$ mkdir client/js
+mkdir client/js
 ```
 
 In this directory, create [`app.js`]
@@ -119,7 +119,7 @@ will generate this file using the `lb-ng` command in a later step.
 Create a [`views`] to store view templates.
 
 ```
-$ mkdir client/views
+mkdir client/views
 ```
 
 In this directory, create [`todo.html`].
@@ -130,7 +130,7 @@ Create a [`controllers`]  directory to store controller
 files.
 
 ```
-$ mkdir client/js/controllers
+mkdir client/js/controllers
 ```
 
 In this directory, create [`todo.js`]
@@ -140,7 +140,7 @@ In this directory, create [`todo.js`]
 Create a [`services` directory] to store service files.
 
 ```
-$ mkdir client/js/services
+mkdir client/js/services
 ```
 
 `lb-ng` is automatically installed along with the `slc` command-line tool (ie.
@@ -154,7 +154,7 @@ Create [`lb-services.js`]  using the `lb-ng`
 command.
 
 ```
-$ lb-ng server/server.js client/js/services/lb-services.js
+lb-ng server/server.js client/js/services/lb-services.js
 ```
 
 ### Run the application
