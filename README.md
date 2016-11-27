@@ -3,7 +3,7 @@
 ## Todo App
 
 ```
-git clone 
+git clone https://github.com/hybridlogics/loopback-angular-todo.git
 cd loopback-angular-todo
 npm install
 node . # then browse to localhost:3000
