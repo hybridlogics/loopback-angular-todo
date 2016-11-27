@@ -1,0 +1,19 @@
+{
+  "name": "Todo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+      "Age": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

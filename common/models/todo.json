@@ -1,0 +1,19 @@
+{
+  "name": "Todo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "task": {
+      "type": "string",
+      "required": true
+    },
+      "description": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
