@@ -1,12 +1,12 @@
-# Wiring Up Loopback With AngularJs - Part 1
+# Wiring Up Loopback With AngularJs - Part 2
 
 ## Todo App
 
 ```
-$ git clone 
-$ cd loopback-angular-todo
-$ npm install
-$ node . # then browse to localhost:3000
+git clone 
+cd loopback-angular-todo
+npm install
+node . # then browse to localhost:3000
 ```
 
 A simple todo list using AngularJS on the client-side and LoopBack on the
@@ -16,7 +16,7 @@ server-side.
 
 ### Tutorials
 
-- [Getting started with LoopBack]
+- Wiring Up Loopback With AngularJs - Part 1
 
 ### Knowledge of
 
