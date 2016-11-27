@@ -2,7 +2,7 @@
 
 ## Todo App
 
-Open coomand-line
+Open terminal / cmd(command-line)
 
 ```
 git clone https://github.com/hybridlogics/loopback-angular-todo.git
