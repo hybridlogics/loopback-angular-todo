@@ -2,11 +2,14 @@
 
 ## Todo App
 
+Open coomand-line
+
 ```
 git clone https://github.com/hybridlogics/loopback-angular-todo.git
 cd loopback-angular-todo
 npm install
-node . # then browse to localhost:3000
+node . 
+then browse to localhost:3000
 ```
 
 A simple todo list using AngularJS on the client-side and LoopBack on the
