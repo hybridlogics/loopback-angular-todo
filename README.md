@@ -19,7 +19,7 @@ server-side.
 
 ### Tutorials
 
-- Wiring Up Loopback With AngularJs - Part 1
+- [Wiring Up Loopback With AngularJs - Part 1](https://github.com/hybridlogics/loopback-angular-setup).
 
 ### Knowledge of
 
